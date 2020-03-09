@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Player1Cards
+  - Player2Cards
+  - Player1
+  - Player2
+  - Card
+  - Player2Buttons
+  - Player1Buttons
+  - ECH1
+  - ECH2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 0
+    uniqueID: 3512039315
+    locked: 0
+  - name: 1
+    uniqueID: 203945437
+    locked: 0
+  - name: 2
+    uniqueID: 730697873
+    locked: 0
