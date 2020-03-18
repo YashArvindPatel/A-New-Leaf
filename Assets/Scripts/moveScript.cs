@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 class moveScript : MonoBehaviour
@@ -18,6 +19,7 @@ class moveScript : MonoBehaviour
     public AudioClip attackAirSound, attackShieldSound, attackEnemySound, defendSound, walkSound;
     public bool attackSoundPlayed = false;
     public bool player1orNot = false;
+
     // Use when needed to move through keyboard
 
     //void Update()

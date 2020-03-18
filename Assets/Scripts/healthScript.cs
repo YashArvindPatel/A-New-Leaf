@@ -22,7 +22,7 @@ public class healthScript : MonoBehaviour
         else
         {
             player1Slider = slider[1];
-            player2Slider = slider[2];
+            player2Slider = slider[0];
         }
         currentHealth = maxHealth;
 
