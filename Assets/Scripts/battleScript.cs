@@ -297,38 +297,38 @@ public class battleScript : MonoBehaviour
         {
             if(totalCountPlaysPlayer1 == 3)
             {
-                cardHolder1.transform.localPosition = new Vector3(-470, 65, 0);
-                cardHolder2.transform.localPosition = new Vector3(-470, 20, 0);
-                cardHolder3.transform.localPosition = new Vector3(-470, -25, 0);
-                extraCardHolder1.transform.localPosition = new Vector3(-470, -67, 0);
+                cardHolder1.transform.localPosition = new Vector3(-400, 65, 0);
+                cardHolder2.transform.localPosition = new Vector3(-400, 20, 0);
+                cardHolder3.transform.localPosition = new Vector3(-400, -25, 0);
+                extraCardHolder1.transform.localPosition = new Vector3(-400, -67, 0);
             }
             else if (totalCountPlaysPlayer1 == 4)
             {
-                cardHolder1.transform.localPosition = new Vector3(-470, 100, 0);
-                cardHolder2.transform.localPosition = new Vector3(-470, 55, 0);
-                cardHolder3.transform.localPosition = new Vector3(-470, 10, 0);
-                cardHolder4.transform.localPosition = new Vector3(-470, -35, 0);
-                extraCardHolder1.transform.localPosition = new Vector3(-470, -77, 0);
+                cardHolder1.transform.localPosition = new Vector3(-400, 100, 0);
+                cardHolder2.transform.localPosition = new Vector3(-400, 55, 0);
+                cardHolder3.transform.localPosition = new Vector3(-400, 10, 0);
+                cardHolder4.transform.localPosition = new Vector3(-400, -35, 0);
+                extraCardHolder1.transform.localPosition = new Vector3(-400, -77, 0);
                 cardHolder4.SetActive(true);
             }
             else if (totalCountPlaysPlayer1 == 5)
             {
-                cardHolder1.transform.localPosition = new Vector3(-470, 110, 0);
-                cardHolder2.transform.localPosition = new Vector3(-470, 65, 0);
-                cardHolder3.transform.localPosition = new Vector3(-470, 20, 0);
-                cardHolder4.transform.localPosition = new Vector3(-470, -25, 0);
-                cardHolder5.transform.localPosition = new Vector3(-470, -70, 0);
+                cardHolder1.transform.localPosition = new Vector3(-400, 110, 0);
+                cardHolder2.transform.localPosition = new Vector3(-400, 65, 0);
+                cardHolder3.transform.localPosition = new Vector3(-400, 20, 0);
+                cardHolder4.transform.localPosition = new Vector3(-400, -25, 0);
+                cardHolder5.transform.localPosition = new Vector3(-400, -70, 0);
                 cardHolder5.SetActive(true);
             }
         }
         else if (battleState == BattleState.player1Phase2)
         {
-            cardHolder1.transform.localPosition = new Vector3(-470, 55, 0);
-            cardHolder2.transform.localPosition = new Vector3(-470, -35, 0);
-            cardHolder3.transform.localPosition = new Vector3(-385, 10, 0);
-            cardHolder4.transform.localPosition = new Vector3(-470, 10, 0);
-            cardHolder6.transform.localPosition = new Vector3(-385, 55, 0);
-            cardHolder7.transform.localPosition = new Vector3(-385, -35, 0);
+            cardHolder1.transform.localPosition = new Vector3(-400, 55, 0);
+            cardHolder2.transform.localPosition = new Vector3(-400, -35, 0);
+            cardHolder3.transform.localPosition = new Vector3(-315, 10, 0);
+            cardHolder4.transform.localPosition = new Vector3(-400, 10, 0);
+            cardHolder6.transform.localPosition = new Vector3(-315, 55, 0);
+            cardHolder7.transform.localPosition = new Vector3(-315, -35, 0);
             cardHolder4.SetActive(true);           
         }
     }
@@ -339,38 +339,38 @@ public class battleScript : MonoBehaviour
         {
             if(totalCountPlaysPlayer2 == 3)
             {
-                cardHolder8.transform.localPosition = new Vector3(470, 65, 0);
-                cardHolder9.transform.localPosition = new Vector3(470, 20, 0);
-                cardHolder10.transform.localPosition = new Vector3(470, -25, 0);
-                extraCardHolder2.transform.localPosition = new Vector3(470, -67, 0);
+                cardHolder8.transform.localPosition = new Vector3(400, 65, 0);
+                cardHolder9.transform.localPosition = new Vector3(400, 20, 0);
+                cardHolder10.transform.localPosition = new Vector3(400, -25, 0);
+                extraCardHolder2.transform.localPosition = new Vector3(400, -67, 0);
             }
             else if (totalCountPlaysPlayer2 == 4)
             {
-                cardHolder8.transform.localPosition = new Vector3(470, 100, 0);
-                cardHolder9.transform.localPosition = new Vector3(470, 55, 0);
-                cardHolder10.transform.localPosition = new Vector3(470, 10, 0);
-                cardHolder11.transform.localPosition = new Vector3(470, -35, 0);
-                extraCardHolder2.transform.localPosition = new Vector3(470, -77, 0);
+                cardHolder8.transform.localPosition = new Vector3(400, 100, 0);
+                cardHolder9.transform.localPosition = new Vector3(400, 55, 0);
+                cardHolder10.transform.localPosition = new Vector3(400, 10, 0);
+                cardHolder11.transform.localPosition = new Vector3(400, -35, 0);
+                extraCardHolder2.transform.localPosition = new Vector3(400, -77, 0);
                 cardHolder11.SetActive(true);
             }
             else if (totalCountPlaysPlayer2 == 5)
             {
-                cardHolder8.transform.localPosition = new Vector3(470, 110, 0);
-                cardHolder9.transform.localPosition = new Vector3(470, 65, 0);
-                cardHolder10.transform.localPosition = new Vector3(470, 20, 0);
-                cardHolder11.transform.localPosition = new Vector3(470, -25, 0);
-                cardHolder12.transform.localPosition = new Vector3(470, -70, 0);
+                cardHolder8.transform.localPosition = new Vector3(400, 110, 0);
+                cardHolder9.transform.localPosition = new Vector3(400, 65, 0);
+                cardHolder10.transform.localPosition = new Vector3(400, 20, 0);
+                cardHolder11.transform.localPosition = new Vector3(400, -25, 0);
+                cardHolder12.transform.localPosition = new Vector3(400, -70, 0);
                 cardHolder12.SetActive(true);
             }
         }
         else if(battleState == BattleState.player2Phase2)
         {
-            cardHolder8.transform.localPosition = new Vector3(470, -35, 0);
-            cardHolder9.transform.localPosition = new Vector3(470, 55, 0);
-            cardHolder10.transform.localPosition = new Vector3(385, 10, 0);
-            cardHolder11.transform.localPosition = new Vector3(470, 10, 0);
-            cardHolder13.transform.localPosition = new Vector3(385, -35, 0);
-            cardHolder14.transform.localPosition = new Vector3(385, 55, 0);
+            cardHolder8.transform.localPosition = new Vector3(400, -35, 0);
+            cardHolder9.transform.localPosition = new Vector3(400, 55, 0);
+            cardHolder10.transform.localPosition = new Vector3(315, 10, 0);
+            cardHolder11.transform.localPosition = new Vector3(400, 10, 0);
+            cardHolder13.transform.localPosition = new Vector3(315, -35, 0);
+            cardHolder14.transform.localPosition = new Vector3(315, 55, 0);
             cardHolder11.SetActive(true);
         }
     }
@@ -513,11 +513,11 @@ public class battleScript : MonoBehaviour
     {
         if (battleState == BattleState.player1Phase1 || battleState == BattleState.player1Phase2)
         {
-            Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, new Vector3(-4, 0, -1), Time.deltaTime * 5);
+            Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, new Vector3(-2.4f, 0, -1), Time.deltaTime * 5);
         }
         else if (battleState == BattleState.player2Phase1 || battleState == BattleState.player2Phase2)
         {
-            Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, new Vector3(4, 0, -1), Time.deltaTime * 5);
+            Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, new Vector3(2.4f, 0, -1), Time.deltaTime * 5);
         }
 
         if (timerOn)

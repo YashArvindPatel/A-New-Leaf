@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 class moveScript : MonoBehaviour
 {
-    private Vector2 speedX = new Vector2(1, 0);
-    private Vector2 speedY = new Vector2(0, 1);
+    private Vector2 speedX = new Vector2(0.8f, 0);
+    private Vector2 speedY = new Vector2(0, 0.8f);
     public Rigidbody2D rb;
     public Animator animator;
     public Transform attackPoint;
@@ -57,7 +57,7 @@ class moveScript : MonoBehaviour
         animator.SetTrigger("Walk");
         audioSource.PlayOneShot(walkSound);
         rb.MovePosition(rb.position - speedX);
-        transform.localScale = new Vector3(-1, 1, 1);
+        transform.localScale = new Vector3(-0.8f, 0.8f, 0.8f);
     }
 
     public void moveRight()
@@ -67,7 +67,7 @@ class moveScript : MonoBehaviour
         animator.SetTrigger("Walk");
         audioSource.PlayOneShot(walkSound);
         rb.MovePosition(rb.position + speedX);
-        transform.localScale = new Vector3(1, 1, 1);
+        transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
     }
 
     public void moveStraight()
@@ -91,7 +91,7 @@ class moveScript : MonoBehaviour
         //play attack animation of player
         animator.SetTrigger("Attack");
         //if hit then reduce health of other player
-        Collider2D[] enemies = Physics2D.OverlapBoxAll(attackPoint.position, new Vector3(0.5f, 0.5f, 0.5f), 0, enemyLayer);
+        Collider2D[] enemies = Physics2D.OverlapBoxAll(attackPoint.position, new Vector3(0.4f, 0.4f, 0.4f), 0, enemyLayer);
         foreach(Collider2D enemy in enemies)
         {
             if (!enemy.GetComponent<moveScript>().onDefense)
@@ -124,7 +124,7 @@ class moveScript : MonoBehaviour
         if (attackPoint == null)
             return;
 
-        Gizmos.DrawWireCube(attackPoint.position, new Vector3(0.5f, 0.5f, 0.5f));
+        Gizmos.DrawWireCube(attackPoint.position, new Vector3(0.4f, 0.4f, 0.4f));
     }
 
     public void defend()
